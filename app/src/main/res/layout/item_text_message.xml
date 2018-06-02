@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="16dp"
+    android:layout_marginStart="16dp">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/rootMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:id="@+id/tvSender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/tvSentMessage"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="16dp"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="@+id/tvSentMessage"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Kent Gimenez" />
+
+        <TextView
+            android:id="@+id/tvSentMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:maxWidth="250dp"
+            android:minWidth="120dp"
+            android:padding="24dp"
+            android:textAlignment="center"
+            android:background="@drawable/send_rounded_rect"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvSender"
+            tools:text="send bobs and vagene" />
+
+    </android.support.constraint.ConstraintLayout>
+
+</FrameLayout>

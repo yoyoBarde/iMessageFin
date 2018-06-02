@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">iMessage</string>
+    <string name="facebook_app_id">901978183317194</string>
+    <string name="fb_login_protocol_scheme">fb901978183317194</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_contacts">Contacts</string>
+    <string name="title_messages">Messages</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_settings">Settings</string>
+    <string name="com.twitter.sdk.android.CONSUMER_KEY">H2lW4k3z7nVHuwK7oSMZcqK7S</string>
+    <string name="com.twitter.sdk.android.CONSUMER_SECRET">gFCqr0jVjNtVGrPmRrdBrnl9IUKljOsMd4kg3Jo5HzHJm73Pc3</string>
+    <string name="tv_show">SHOW</string>
+    <string name="tv_show2">SHOW</string>
+    <string name="text_enter_info">PLEASE ENTER YOUR INFORMATION</string>
+    <string name="text_user">Enter username</string>
+    <string name="text_email_add">Enter email</string>
+    <string name="text_phone">Enter phone</string>
+    <string name="text_password">Enter pass</string>
+    <string name="text_show">SHOW</string>
+    <string name="text_confirm_password">Confirm pass</string>
+    <string name="text_create">Create Account</string>
+    <string name="text_account">Already have account?</string>
+    <string name="text_sign_in">Sign in</string>
+
+</resources>
